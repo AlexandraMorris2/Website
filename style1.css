@@ -1,0 +1,55 @@
+body{
+    font-family: 'Source Serif 4', sans-serif;
+    background-image: url("images/b6.jpg");
+    background-size: cover;
+    border:bold
+}
+    
+h1{
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 50pt;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+table{
+    font-family: 'Source Serif 4', sans-serif;
+    background-color:pink;
+    border:black;
+    text-align: center;
+}
+nav{
+    text-align: left;
+    font-size:50pt;
+    font-family: 'Sedgwick Ave', cursive;
+    color: black;
+
+}
+footer{
+    font-size: xxx-large;
+    font-family: 'Sedgwick Ave', cursive;
+    text-align: center;
+    background-color: blueviolet;
+}
+header{
+    font-size: xxx-large;
+    font-family: 'Sedgwick Ave', cursive;
+    text-align: center;
+    background-color: blueviolet;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
